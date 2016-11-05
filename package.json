@@ -1,7 +1,7 @@
 {
   "name": "ember-scroll-to-top",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember addon for scrolling page to top",
   "directories": {
     "doc": "doc",
     "test": "tests"

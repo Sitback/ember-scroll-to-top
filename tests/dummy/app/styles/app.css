@@ -1,0 +1,10 @@
+html {
+  width: 100%;
+  height: 200%;
+}
+
+.ember-scroll-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+}
