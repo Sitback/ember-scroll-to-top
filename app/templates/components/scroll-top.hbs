@@ -1,1 +1,5 @@
-{{yield (action 'scrollToTop')}}
+{{#if hasBlock}}
+  {{yield (action 'scrollToTop')}}
+{{else}}
+  <button class='btn__scroll-to-top' {{action 'scrollToTop'}}>Scroll To Top</button>
+{{/if}}

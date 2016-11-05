@@ -15,6 +15,12 @@ test('display with block', function(assert) {
   assert.equal(this.$('.item').length, 1,  'element inside injected into DOM');
 });
 
+test('display withouth block', function(assert) {
+  this.render(hbs`{{scroll-top}}`);
+  assert.equal(this.$('.ember-scroll-to-top').length, 1,  'element injected into DOM');
+  assert.equal(this.$('.btn__scroll-to-top').length, 1,  'element injected into DOM');
+});
+
 // test('display with block and can react to external action', function(assert) {
 //   assert.expect(1);
 //

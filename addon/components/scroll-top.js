@@ -57,12 +57,16 @@ export default Component.extend({
       const target = $('html, body');
       const animate = this.get('animate');
       if (animate) {
-        target.animate({scrollTop : 0}, parseFloat(animate));
+        target.animate({scrollTop : 0}, parseFloat(animate), () => {
+          if(this.get('onScrollToTop')) {
+            this.get('onScrollToTop')();
+          }
+        });
       } else {
         target.scrollTop(0);
-      }
-      if(this.get('onScrollToTop')) {
-        this.get('onScrollToTop')();
+        if(this.get('onScrollToTop')) {
+          this.get('onScrollToTop')();
+        }
       }
     }
   }

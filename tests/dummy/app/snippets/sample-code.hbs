@@ -1,0 +1,10 @@
+{{!-- BEGIN-SNIPPET scroll-to-top --}}
+  {{#scroll-top
+    toggleWhenScroll=true
+    effectToToggle='fade'
+    onScroll=(action 'onScroll')
+    onScrollToTop=(action 'onScrollToTop')
+    animate='400' as |clickAction|}}
+    <button type='button' onclick={{clickAction}}>Scroll to Top</button>
+  {{/scroll-top}}
+{{!-- END-SNIPPET --}}
