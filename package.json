@@ -11,9 +11,9 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository":   {
-    "type" : "git",
-    "url" : "https://github.com/zhujy8833/ember-scroll-to-top.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhujy8833/ember-scroll-to-top.git"
   },
   "engines": {
     "node": ">= 0.12.0"
