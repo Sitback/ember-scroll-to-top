@@ -1,13 +1,10 @@
 # Ember-scroll-to-top
 [![Build Status](https://travis-ci.com/zhujy8833/ember-scroll-to-top.svg?token=AbecQTdzwsRokttzSyiy&branch=master)](https://travis-ci.com/zhujy8833/ember-scroll-to-top)
-
+[![Ember Observer Score](https://emberobserver.com/badges/ember-scroll-to-top.svg)](https://emberobserver.com/addons/ember-scroll-to-top)
 Ember component addon to allow scrolling to top of the page.
-## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-scroll-to-top`
-* `npm install`
-* `bower install`
+## Installation
+`ember install ember-scroll-to-top`
 
 ## How to use
 To use this addon, you can wrap you customize markup for the real control element or simply put the component in your template directly (The default control would be `<button>`)
@@ -51,7 +48,10 @@ The action of `scroll-to-top` is yielded from the component, so you can put that
 
 
 ## Running
-
+* `git clone <repository-url>` this repository
+* `cd ember-scroll-to-top`
+* `npm install`
+* `bower install`
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
