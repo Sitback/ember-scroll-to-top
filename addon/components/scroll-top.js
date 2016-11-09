@@ -45,10 +45,10 @@ export default Component.extend({
         _effectToToggleFuncs[effectToToggle] || _effectToToggleFuncs['default'];
 
       if ($(window).scrollTop() > this.get('toggleStartOffset')) {
-  			$(element)[effectFuncs['show']]();
-  		} else {
+        $(element)[effectFuncs['show']]();
+      } else {
         $(element)[effectFuncs['hide']]();
-  		}
+      }
     }
   },
 

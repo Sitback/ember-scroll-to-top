@@ -1,13 +1,16 @@
+import Ember from 'ember';
 import Controller from 'ember-controller';
+
+const { Logger } = Ember;
 
 export default Controller.extend({
   actions: {
     onScroll() {
-      console.log('scrolling window');
+      Logger.log('scrolling window');
     },
 
     onScrollToTop() {
-      console.log('finished scrolling to top');
+      Logger.log('finished scrolling to top');
     }
   }
 });
