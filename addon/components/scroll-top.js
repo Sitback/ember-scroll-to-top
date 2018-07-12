@@ -1,6 +1,6 @@
-import Component from 'ember-component';
+import Component from '@ember/component';
 import $ from 'jquery';
-import on from 'ember-evented/on';
+import { on } from '@ember/object/evented'
 
 export default Component.extend({
   classNames: 'ember-scroll-to-top',
